@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+	 <script type="text/javascript" src="jarallax-0.2.1.js"></script>
+	 <link rel="stylesheet" type="text/css" href="main.css">
+	 
+	 <script type="text/javascript">
+       init = function(){
+	   var jarallax = new Jarallax();
+	   jarallax.setDefault('.us,.text,h2,h1, p, .djbar,.girl2, .earphone, .computer,.tv',{display:'none'});
+	   
+	   //jarallax.addAnimation('.big_moon',[{progress:'0%', top:'120%'},{progress:'100%', top:'-10%'}]);
+	   
+       //jarallax.addAnimation('.small_moon',[{progress:'0%', top:'70%'},{progress:'100%', top:'40%'}]);
+	  
+	   
+	   
+	   jarallax.addAnimation('.girl', [{progress:'0%', top:'50%',opacity:'1', display:'block'},
+	                                   {progress:'50%', top:'50%' ,opacity:'0'},
+									   {progress:'100%', top:'50%', opacity:'0'}]);
+	   
+	   jarallax.addAnimation('.girl2',[{progress:'0%', top:'50%', opacity:'0', display:'block'},
+	                                  {progress:'5%', top:'50%',opacity:'1', display:'block'},
+									  {progress:'100%', top:'50%',opacity:'1'}]);
+	   
+	   jarallax.addAnimation('.djbar',[{progress:'0%',left:'-20%', display:'block'},
+	                              {progress:'20%',left:'45%', display:'block'},
+								  {progress:'100%', left:'45%'}]);
+	   
+	   jarallax.addAnimation('.computer',[{progress:'0%', left:'120%', display:'block'},{progress:'20%', left:'70%', display:'block'   },{progress:'100%', left:'70%'}]);
+	   
+	   
+	   jarallax.addAnimation('.tv',[{progress:'0%', top:'120%', display:'block'},{progress:'23%', top:'50%', display:'block'},{progress:'100%', top:'50%', display:'block'}]);
+	   
+	    
+		jarallax.addAnimation('.earphone',[{progress:'0%', top:'-20%',display:'block'},{progress:'23%', top:'50%',display:'block'},{progress:'100%', top:'50%'}]);
+	   
+	   
+	    jarallax.addAnimation('.text', [{progress:'0%',opacity:'0',display:'block'},
+	                               {progress:'30%', opacity:'0',display:'block'},
+								   {progress:'50%', opacity:'1',display:'block'},
+								   {progress:'100%', opacity:'1'},]);
+	   
+	   jarallax.addAnimation('h1',[{progress:'0', top:'50px', opacity:'1',display:'block'},{progress:'10', top:'0px',opacity:'0',display:'block'}]);
+	   
+	   
+       
+	   jarallax.addAnimation('h2',[{progress:'10',left:'-20%', display:'block'},
+	                              {progress:'18',left:'50%', display:'block'},
+								  {progress:'24', left:'55%'}]);
+	  
+       jarallax.addAnimation('h2', [{progress:'20',opacity:'1'},
+	                                {progress:'24', opacity:'0'}]);
+       
+	   
+	   jarallax.addAnimation('p', [{progress:'13',opacity:'0',display:'block'},
+	                               {progress:'15', opacity:'1',display:'block'},
+								   {progress:'18', opacity:'1',display:'block'},
+								   {progress:'24', opacity:'0'},]);
+		
+		 
+	   jarallax.addAnimation('.us',[{progress:'70%',left:'-30%', display:'block'},
+	                              {progress:'95%',left:'-10%', display:'block'},
+								  {progress:'100%', left:'-8%'}]);
+	  jarallax.addAnimation('.us', [{progress:'75%',opacity:'0', display:'block'},
+	                                {progress:'100%', opacity:'1'}]);
+	  
+       
+	 
+	   
+	  }
+	  
+      </script>	  
+   </head>
+   <body onload="init()">
+   
+     <div class="classroom"></div>
+	 
+	  <div class="girl"></div>
+	  <div class="girl2"></div>
+	  <div class="djbar"></div>
+	  <div class="earphone"></div>
+	  <div class="tv"></div>
+	  <div class="computer"> </div> 
+	  <div class="us"> 
+      <a href="http://www.cssdesignawards.com/css-web-design-award-winner.php?id=17006" target="_blank"></a></div> 
+	  
+	  <div class="text">
+	  
+	  
+	  
+	  
+	  </div>
+     <h1>Head1</h1>
+	 <h2>Head2</h2>
+	 <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+	 <h2>Head2</h2>
+	 <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+	 <h2>Head2</h2>
+	 <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+   </body>
+</html>
