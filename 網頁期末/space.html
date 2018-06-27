@@ -1,98 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="jarallax-0.2.1.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript" src="js/jarallax-0.2.1.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
 <link rel="stylesheet" type="text/css" href="main.css" />
-<script type="text/javascript">
-    init = function(){
-        var jarallax = new Jarallax();
-       jarallax.setDefault('.rc1,.mrt,.mrt1,.mbridge,.sun,.moon,.m1,.m2,.nbridge,.night,.end,.end1',{display:'none'});
-       jarallax.addAnimation('.mrt',[{progress:'0%',left:'-70%',opacity:'1',display:'block'},
-                                     {progress:'5%',left:'50%',opacity:'1',display:'block'},
-                                     {progress:'10%',left:'150%',opacity:'0'}])
-       jarallax.addAnimation('.mrt1',
-                             [{progress:'0%',opacity:'1',display:'block'},
-                              {progress:'8%',opacity:'1',display:'block'},
-                              {progress:'9%',opacity:'0'}])
-
-
-         
-         jarallax.addAnimation('.m1',[{progress:'8%',opacity:'0',display:'block'},                 
-                                           {progress:'12%',opacity:'1',display:'block'},
-                                             {progress:'14%',opacity:'1',display:'block'},
-                                            {progress:'15%',opacity:'0',display:'block'}
-                                          ])
-           jarallax.addAnimation('.m2',[{progress:'8%',opacity:'0',display:'block'},                 
-                                           {progress:'12%',opacity:'1',display:'block'},
-                                            {progress:'14%',opacity:'1',display:'block'},
-                                            {progress:'15%',opacity:'0',display:'block'}
-                                          ])
-         
-         
-         
-         jarallax.addAnimation('.mbridge',[{progress:'8%',opacity:'0',display:'block'},                 
-                                           {progress:'12%',opacity:'1',display:'block'},
-                                            {progress:'14%',opacity:'1',display:'block'},
-                                            {progress:'15%',opacity:'0',display:'block'}
-                                          ])
-              jarallax.addAnimation('.nbridge',[{progress:'14%',opacity:'0',display:'block'},                 
-                                           {progress:'15%',opacity:'1',display:'block'},
-                                           {progress:'17%',opacity:'1',display:'block'},
-                                           {progress:'18%',opacity:'0',display:'block'}
-                                          ])
-        
-        jarallax.addAnimation('.sun',[{progress:'8%',top:'0%',opacity:'0',display:'block'},                 
-                                        {progress:'12%',top:'30%',opacity:'1',display:'block'},
-                                        {progress:'13%',top:'50%',opacity:'1',display:'block'},
-                                        {progress:'14%',top:'70%',opacity:'1',display:'block'},
-                                        {progress:'15%',top:'90%',opacity:'0',display:'block'},
-                                        {progress:'16%',top:'130%',opacity:'0',display:'block'},
-                                        {progress:'100%',top:'130%',opacity:'0'}
-                                        ])
-        jarallax.addAnimation('.moon',[{progress:'14%',top:'0%',opacity:'0',display:'block'},                 
-                                        {progress:'15%',top:'30%',opacity:'1',display:'block'},
-                                        {progress:'16%',top:'50%',opacity:'1',display:'block'},
-                                        {progress:'17%',top:'70%',opacity:'1',display:'block'},
-                                        {progress:'18%',top:'90%',opacity:'0',display:'block'},
-                                        {progress:'19%',top:'130%',opacity:'0',display:'block'},
-                                        {progress:'100%',top:'130%',opacity:'1'}
-                                        ])
-         jarallax.addAnimation('.night',[{progress:'0%',opacity:'0',display:'block'}, 
-                                         {progress:'14%',opacity:'0',display:'block'},                 
-                                        {progress:'15%',opacity:'1',display:'block'},
-                                        {progress:'17%',opacity:'1',display:'block'},
-                                        {progress:'18%',opacity:'0'}
-                                        
-                                        ])
-          jarallax.addAnimation('.rc1',[{progress:'0%',opacity:'0',display:'block'}, 
-                                        {progress:'17%',opacity:'0',display:'block'},                 
-                                        {progress:'18%',opacity:'1',display:'block'},
-                                        {progress:'19%',opacity:'1',display:'block'},
-                                        {progress:'20%',opacity:'0'}
-                                        
-                                        ])
-          jarallax.addAnimation('.end',[{progress:'0%',opacity:'0',display:'block'}, 
-                                        {progress:'18%',opacity:'0',display:'block'},                 
-                                        {progress:'20%',opacity:'1',display:'block'},
-                                        ])
-            jarallax.addAnimation('.end1',[{progress:'0%',opacity:'0',display:'block'}, 
-                                        {progress:'18%',opacity:'0',display:'block'},                 
-                                        {progress:'20%',opacity:'1',display:'block'},
-                                        ])
-    }
-</script>
-<style>
-
-
-</style>
-
-<style type="text/css">
-.NoNewline
-{
-word-break: keep-all;/*必須*/
-}
-</style>
 
 </head>
 <body onload="init()">
@@ -101,20 +15,21 @@ word-break: keep-all;/*必須*/
      <div class="nbridge"></div>
      <div class="road"></div>
      <div class="mrt"></div>
-      <div class="mrt1"></div>
+      <div class="sunset"></div>
      <div class="sun"></div>
      <div class="moon"></div>
      <div class="night"></div>
-     <div class="m1"></div>
+     <div class="boat"></div>
      <div class="m2"></div>
-     <div class="rc1"></div>
+     <div class="redcity"></div>
      <div class="end"></div>
-    <div class="end1"></div>
+    <div class="endtxt"></div>
 
+<div class="txt">
 <h2>Fort San Domingo </h2>
 <p>Fort San Domingo was originally a wooden fort built by the Spanish in 1629 at Tamsui District, New Taipei City, Taiwan. It is located near Hobe Fort, which was built during Qing rule. <p>
 
-
+</div>
 
 
 </body>

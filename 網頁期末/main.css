@@ -2,32 +2,23 @@ body{
 margin:0;
 padding:0;
 color: lightgray;
-height:10000px;
-
+height:1000px;
 }
 
-.morning, .mbridge,.nbridge,.sun,.moon,.rc1,.night,.m1,.m2 ,.mrt,.mrt1 ,.end,.end1,h2, p{
+.morning, .mbridge,.nbridge,.sun,.moon,.redcity,.night,.boat,.m2 ,.mrt,.sunset ,.end,.endtxt,.txt{
 position:fixed;
 }
 
 .examplecursive {
  font-family: cursive;
 }
-h2{
+.txt{
 top:100px;
 width:600px;
 left:400px;
 margin-left:-200px;
 z-index:-2;
 font-family: cursive;
-}
-p{
-top:170px;
-width:400px;
-left:400px;
-margin-left:-200px;
-z-index:-1;
- font-family: cursive;
 }
 .mrt{
 width:769px;
@@ -37,12 +28,12 @@ left:50%;
 background:url(images/mrt.png);
 z-index:-1;
 }
-.mrt1{
+.sunset{
 width:1187px;
 height:802px;
 top:-5%;
 left:-3%;
-background:url(images/mrt1.png);
+background:url(images/sunset.png);
 z-index:-2;
 }
 
@@ -84,12 +75,12 @@ margin-left:-100px;
 z-index:-2;
 }
 
-.m1{
+.boat{
 width:1271px;
 height:245px;
 top:69%;
 left:-3%;
-background:url(images/m1.png);
+background:url(images/boat.png);
 z-index:-2;
 }
 .m2{
@@ -108,12 +99,12 @@ left:-3%;
 background:url(images/night.png);
 z-index:-3;
 }
-.rc1{
+.redcity{
 width:1270px;
 height:848px;
 top:-5%;
 left:-3%;
-background:url(images/rc1.png);
+background:url(images/redcity.png);
 z-index:-3;
 }
 .end{
@@ -124,19 +115,14 @@ left:-3%;
 background:url(images/end.png);
 z-index:-1;
 }
-.end1{
+.endtxt{
 width:293px;
 height:181px;
 left:19%;
 top:20%;
-background:url(images/end1.png);
+background:url(images/endtxt.png);
 z-index:-1;
 
 }
 
-/*h2{
-top:100px;
-width:600px;
-left:50%;
-margin-left:-355px;
-}
+
